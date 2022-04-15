@@ -1,11 +1,7 @@
-
-
 function getHeaders() {
-    const headers = {
-       
-    }
+  const headers = {};
 
-    return headers;
+  return headers;
 }
 
 export default getHeaders;
