@@ -1,0 +1,80 @@
+.auth{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    z-index: 2;
+
+    .buttons {
+        display: flex;
+        font-weight: 400;
+        flex-wrap: wrap;
+        justify-content:center;
+        margin: 0 auto;
+        width: 310px;    
+    
+        .button {
+            border: 2.5px solid #5F72D7;
+            border-radius: 10px;
+            color: #5F72D7;
+            cursor: pointer;
+            display: inline-block;
+            font-size: 26px;
+            height: 80px;
+            line-height: 80px;
+            margin: 4px;
+            text-align: center;
+            width: 80px;
+            font-weight: bold;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+            
+    }
+          
+    .input-numpad{
+        display: inline-block;
+        align-items: center;
+        width: 83%;
+        border-radius: 10px;
+        height: 6vh;
+        border: 2.5px solid #5F72D7;
+        margin:2rem 0 1rem ;
+        background-color: transparent;
+        text-align: center;
+        font-size: 3rem;
+           
+        
+        &:focus{
+                outline: none;
+            }
+        
+    }
+        
+    .errors {
+        margin-top: 5rem;
+        font-size: 2rem;
+        opacity: .8;
+        position: absolute;
+        bottom: 6rem;
+    }
+    
+}
+.font-primary{
+    color: #FFB246;
+}
+
+.input-numpad{
+    color: #5F72D7 !important;
+}
+
+.d-hidden{
+    display: none;
+}
+
+html, body {
+    overflow: hidden;
+  }
+

@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: Poppins;
+   
+}
+
+body{
+    background-color: #f0f0f0 !important;
+}
+
+.table{
+    background-color: white;
+}
+.btn-success{
+    background-color: #FFB246 !important;
+    border: none !important;
+}
+.btn-primary{
+    background-color: #FFB246 !important;
+    border: none !important;
+}
+.btn-secondary{
+    background-color: #5F72D7 !important;
+    border: none !important;
+}
+.btn-info{
+    background-color: #2BC957 !important;
+    color: white !important;
+    border: none !important;
+}
+.btn-danger{
+    background-color: #F31717 !important;
+    color: white !important;
+    border: none !important;
+}
+.text-success{
+    background-color: #FFB246 !important;
+    border: none !important;
+}
+.text-primary{
+    color: #FFB246 !important;
+    border: none !important;
+}
+.text-info{
+    color: #FFB246 !important;
+ 
+}
+.text-secondary{
+    color: #5F72D7 !important;
+    border: none !important;
+}
+.text-info{
+    color: #2BC957 !important;
+    border: none !important;
+}
+
+.nav{
+    background-color: white;
+}
+.nav-item{
+    background-color: white;
+    color: black;
+    font-weight: 400;
+}
+
+.nav-item a{
+    background-color: white;
+    color: #9A9AB0;
+    font-weight: 500;
+}
+
+.nav-link.active{
+    background-color: white;
+    color: #FFB246 !important;
+    font-weight: 500;
+}
+
+.nav-link.active{
+    background-color: white;
+    color: #FFB246 !important;
+    font-weight: 500;
+    border: none !important;
+    border-bottom: 3px solid #FFB246 !important;
+}
+
+
+  .nav-tabs .nav-link:hover {
+    border: 0px solid transparent;
+    color: #FFB246 !important;
+  }
+
+  .nav-tabs .nav-link.active::backdrop {
+    border: 0px solid transparent;
+    color: #FFB246 !important;
+  }
+
+   *:hover, *:visited, *:active, *:focus, *::backdrop, *::after{
+    border: 0px solid transparent;
+  }
+  .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    border: 0;
+    }
+.fade.modal.show{
+    background-color: none !important;
+}
+
+td{
+    text-align: center;
+    margin: auto;
+}
+
+.btn:focus {
+    outline: none !important; 
+    box-shadow: none !important;
+  }
+ 
+ 
+.pointer{
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus {
+  
+    outline:none;
+}
+
+video
+{
+  position: absolute;
+ bottom: -450px;
+ z-index: -1;
+}
+
+.video-overlay{
+    position: absolute;
+    bottom: -450px;
+    z-index: 1;
+    width: 642px;
+    height: 482px;
+}
+
+.jTime{
+    width: 100% !important;
+}

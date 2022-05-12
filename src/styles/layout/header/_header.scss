@@ -1,0 +1,35 @@
+
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+  }
+
+  .pagination-custom{
+      position: absolute;
+      top: 5px;
+      transform: translateX(-50%);
+      left: 50%;
+  }
+
+
+
+  @media only screen and (max-width: 600px) {
+    .d-none-on-phone{
+        display: none;
+    }
+  }
+
+  .scrollme{
+    overflow-x: auto;
+    
+  }
+
+ 
+  .nav{
+    flex-wrap: nowrap;
+    text-align: center;
+}
+  tr{
+      text-align: center;
+  }
