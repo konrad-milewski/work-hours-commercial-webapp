@@ -15,6 +15,7 @@ export default function UsersTable({ data = [], name }) {
 
       <div class="scrollme mt-3" style={{ maxHeight: "400px" }}>
       
+      
       <Table bordered hover size="sm" className="rounded">
         <thead>
           <tr>
