@@ -1,10 +1,8 @@
 import { Button, Table } from "react-bootstrap";
 import React from "react";
 import EditHoursModal from "./modals/EditHoursModal";
-import formatDate from "../../utilities/formdate/formDate";
 
 export default function UsersTable({ data = [], name }) {
-  console.log(data)
   return (<>
   <h3
         className="fw-bold mt-3 fs-5 bg-white py-3 px-3"
@@ -13,7 +11,7 @@ export default function UsersTable({ data = [], name }) {
         {name}
       </h3>
 
-      <div class="scrollme mt-3" style={{ maxHeight: "400px" }}>
+      <div class="scrollme mt-3" style={{ maxHeight: "230px" }}>
       
       <Table bordered hover size="sm" className="rounded">
         <thead>
@@ -42,8 +40,8 @@ export default function UsersTable({ data = [], name }) {
 
                   <td className="fw-bold ">{x.OPR_Imie}</td>
                   <td>{x.OPR_Nazwisko}</td>
-                  <td> {formatDate(new Date(x.CZP_DataPrzyjscia)) }</td>
-                  <td>{x.CZP_DataWyjscia !== null && formatDate(new Date(x.CZP_DataWyjscia))}</td>
+                  <td> {x.CZP_DataPrzyjscia}</td>
+                  <td>{x.CZP_DataWyjscia}</td>
                   <td>{x.SPO_Nazwa}</td>
                   <td>
                     <EditHoursModal />
